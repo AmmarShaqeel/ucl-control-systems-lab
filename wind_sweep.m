@@ -1,4 +1,4 @@
-gain=0.001:0.001:0.010;
+gain=0.002:0.005:0.5;
 wind_sensitivity;
 print('-swind_sensitivity','-dpng','model')
 
