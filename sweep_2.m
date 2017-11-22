@@ -1,4 +1,4 @@
-gain=0:0.05:0.5;
+gain=0:0.05:0.7;
 control_lab_2;
 print('-scontrol_lab_2','-dpng','control_lab_2')
 
@@ -20,7 +20,7 @@ print('-scontrol_lab_2','-dpng','control_lab_2')
   ylabel('Amplitude');
 
   
-  sname = ['K_' num2str(K) '.png'];
+  sname = ['K_' num2str(x) '.png'];
   saveas(gcf, sname);
   
 
