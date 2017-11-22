@@ -11,7 +11,7 @@ print('-sradar_sensitivity','-dpng','model')
   
   load(fname);
   plot(ans);
-  title(['Response of system with K = ' num2str(K/2)]);
+  title(['Response of Er(s) with K = ' num2str(K/2)]);
   
   sname = ['K_' num2str(K) '.png'];
   saveas(gcf, sname);
