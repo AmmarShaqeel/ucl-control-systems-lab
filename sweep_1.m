@@ -1,4 +1,4 @@
-gain=[1:8];
+gain=1:9;
 control_lab_1;
 print('-scontrol_lab_1','-dpng','model')
 
@@ -18,6 +18,8 @@ print('-scontrol_lab_1','-dpng','model')
   set(gcf,'units','points','position',[x0,y0,width,height]);
   title(['Response of system to Step input with K =' num2str(K)]);
   ylabel('Amplitude');
+  legend('Input','Response');
+
   
   sname = ['K_' num2str(x) '.png'];
   saveas(gcf, sname);

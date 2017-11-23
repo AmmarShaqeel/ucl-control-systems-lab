@@ -18,6 +18,8 @@ print('-swind_sensitivity','-dpng','model')
   set(gcf,'units','points','position',[x0,y0,width,height]);
   title(['Response of Ew(s) with K = ' num2str(K/2)]);
   ylabel('Amplitude');
+  legend('Response','Input');
+
 
   
   sname = ['K_' num2str(x) '.png'];

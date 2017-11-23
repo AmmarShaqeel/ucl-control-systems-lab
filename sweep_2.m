@@ -18,6 +18,8 @@ print('-scontrol_lab_2','-dpng','control_lab_2')
   set(gcf,'units','points','position',[x0,y0,width,height]);
   title(['Response of system to Step input with K =' num2str(K)]);
   ylabel('Amplitude');
+  legend('Input','Response');
+
 
   
   sname = ['K_' num2str(x) '.png'];

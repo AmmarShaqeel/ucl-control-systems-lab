@@ -1,4 +1,4 @@
-gain=0:0.020:1.20;
+gain=0:0.02:1.20;
 radar_sensitivity;
 print('-sradar_sensitivity','-dpng','model')
 
@@ -18,6 +18,7 @@ print('-sradar_sensitivity','-dpng','model')
   set(gcf,'units','points','position',[x0,y0,width,height]);
   title(['Response of Er(s) with K = ' num2str(K/2)]);
   ylabel('Amplitude');
+  legend('Response','Input');
 
   
   sname = ['K_' num2str(x) '.png'];
